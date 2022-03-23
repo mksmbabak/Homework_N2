@@ -1,7 +1,10 @@
 #include <iostream>
 #include <vector>
 #include <numeric>
+
+
 using namespace std;
+
 
 class Student {
     string name;
@@ -175,9 +178,13 @@ int main() {
     case '1':
     {
         Student student;
-
-
-
+        Student student;
+        student.inputation();
+        student.add_new_grades();
+        student.display_summary();
+        student.mean_grade();
+        student.cheaker_of_2();
+        student.cheaker_of_valid_alnum()
         break;
     }
     case '2':
